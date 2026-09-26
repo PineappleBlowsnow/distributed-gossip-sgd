@@ -1,0 +1,164 @@
+[
+  {
+    "source": "submitted files/gossip.py",
+    "packaged": "archive/gossip_submitted.py",
+    "sha256": "4c0228ea3a1085d98ae790ab8fc3e1d86974b737484dda93e3a9283e6058b48d",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "summary.csv",
+    "packaged": "results/historical_40step/summary.csv",
+    "sha256": "8cbf72b544c6ac689c6b84e9c70d3b413ee18a4e19cff5b8d225f588e3c9c744",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/complete_async_nu1.csv",
+    "packaged": "results/historical_40step/runs/complete_async_nu1.csv",
+    "sha256": "aaf79af870690c7af2bc13ebdf5c61bc1dba2739418283acd1277e818fbc0799",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/complete_async_nu2.csv",
+    "packaged": "results/historical_40step/runs/complete_async_nu2.csv",
+    "sha256": "5b8716e1ec133f3b0aa0e5508a0d87cd0b03e818091edb455a502065d47d861a",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/complete_async_nu4.csv",
+    "packaged": "results/historical_40step/runs/complete_async_nu4.csv",
+    "sha256": "3cb8a71777fc15c2036d71fcb9f9d1e8c6ef623f24bd45f2fb058102bd8e8d88",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/complete_sync_nu1.csv",
+    "packaged": "results/historical_40step/runs/complete_sync_nu1.csv",
+    "sha256": "111423cc41030901b80605fa4d1b0b678aaa909694328ad26446d1c730fa4ef1",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/complete_sync_nu2.csv",
+    "packaged": "results/historical_40step/runs/complete_sync_nu2.csv",
+    "sha256": "dd04e7896d97a205e538bea6c67ad105d2bfd8c7ffeacc4f050120ac090f79f2",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/complete_sync_nu4.csv",
+    "packaged": "results/historical_40step/runs/complete_sync_nu4.csv",
+    "sha256": "dd9e9cddafba1daa3949b5a8f414f0258ecb16b8a38586c45723fb155cbfb482",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/grid_async_nu1.csv",
+    "packaged": "results/historical_40step/runs/grid_async_nu1.csv",
+    "sha256": "2e841678c72e616ea0467e762292235df516807f8e981342692d1c949a0e87e4",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/grid_async_nu2.csv",
+    "packaged": "results/historical_40step/runs/grid_async_nu2.csv",
+    "sha256": "446d0329e189d7bdc1ae259c7b4db64a7294b643e70dbfa69ff60bbb0e9138e9",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/grid_async_nu4.csv",
+    "packaged": "results/historical_40step/runs/grid_async_nu4.csv",
+    "sha256": "fc2f820b790685f8df15c3cba43885770a96cd2d64a855f1052821ccb3d0b775",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/grid_sync_nu1.csv",
+    "packaged": "results/historical_40step/runs/grid_sync_nu1.csv",
+    "sha256": "3dc1aef7c76c8fd6e067683a602e2d5ead9bae157143684ce15e959d92234f2c",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/grid_sync_nu2.csv",
+    "packaged": "results/historical_40step/runs/grid_sync_nu2.csv",
+    "sha256": "ed399152bcc6680e2c46e40f0ceb88bfef5f2daf65fd4f98f2421393141413fe",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/grid_sync_nu4.csv",
+    "packaged": "results/historical_40step/runs/grid_sync_nu4.csv",
+    "sha256": "d98e182353854eff60bb183b6e6700c2acd85b2a54f309de4e443e53ea8bb4bb",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/ring_async_nu1.csv",
+    "packaged": "results/historical_40step/runs/ring_async_nu1.csv",
+    "sha256": "86ae016dd9a13585738207cf53b5a6c4b2a92c0d09b4e30ca00cd2e2535cb86b",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/ring_async_nu2.csv",
+    "packaged": "results/historical_40step/runs/ring_async_nu2.csv",
+    "sha256": "69625e5b251c934015d09ccc24df1a75a5d574f7bfe0ef90bd97aa234667f45b",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/ring_async_nu4.csv",
+    "packaged": "results/historical_40step/runs/ring_async_nu4.csv",
+    "sha256": "433086d4ad623afc235b312556d84ee75ff402379b0d3c8fc9f058060273f846",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/ring_sync_nu1.csv",
+    "packaged": "results/historical_40step/runs/ring_sync_nu1.csv",
+    "sha256": "ecd4f39d966a6fbfa2160cd76e04fd9c0e03ef379a659d9d5fdbeecb65e4fa90",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/ring_sync_nu2.csv",
+    "packaged": "results/historical_40step/runs/ring_sync_nu2.csv",
+    "sha256": "826b4ee8df31cc5ff5ec614c536be0030a00ecdd022340fb33e96f6617c871c7",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/ring_sync_nu4.csv",
+    "packaged": "results/historical_40step/runs/ring_sync_nu4.csv",
+    "sha256": "be1aa78531e81992d0ac4e0f7e12948ead4403f1ce730c3ebf8052cc35dfc90a",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/star_async_nu1.csv",
+    "packaged": "results/historical_40step/runs/star_async_nu1.csv",
+    "sha256": "9d1ed4ba6424b378771338209722de4284d31394b996d95c5ef985b97aab964c",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/star_async_nu2.csv",
+    "packaged": "results/historical_40step/runs/star_async_nu2.csv",
+    "sha256": "82d951213795eab0944fff655367c6c7bbd425a2a20fabd0a9d37add0d71a9fa",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/star_async_nu4.csv",
+    "packaged": "results/historical_40step/runs/star_async_nu4.csv",
+    "sha256": "b2ec88fc21a7af0158ac0cf55edbd9526a0cc5a7980efb1da8b3aa9ebadba6ae",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/star_sync_nu1.csv",
+    "packaged": "results/historical_40step/runs/star_sync_nu1.csv",
+    "sha256": "b17e5e9ed60888fd7d6bba809b51000fa6432f38053d66877b961fa6061a9c61",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/star_sync_nu2.csv",
+    "packaged": "results/historical_40step/runs/star_sync_nu2.csv",
+    "sha256": "f354ece3504fd09bfb212c627170fe4a95aaa5377f145cf68dd1ae9d5a28816c",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "runs/star_sync_nu4.csv",
+    "packaged": "results/historical_40step/runs/star_sync_nu4.csv",
+    "sha256": "3088bfdecc41c7dd9e04db5b33ab1dde6abbc06c1e1a9fd0e26f7dcd65e2b577",
+    "treatment": "byte-identical copy"
+  },
+  {
+    "source": "sanity_check.py",
+    "packaged": "results/historical_200step/transcript.txt",
+    "sha256": "fe9cb986f15b8e3df1e8dee31b51d76701ec5085caaab5c52a3543ec2610fe51",
+    "treatment": "only historical commented output extracted; summary separately parsed from FINAL records"
+  }
+]

@@ -1,0 +1,316 @@
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN ring sync nu=1 n=4 |E|=4
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.2873e-02 acc=0.6597
+  step=100 samples=25856 E=3.2470e-02 acc=0.7803
+  step=150 samples=38656 E=3.7178e-02 acc=0.8447
+  step=199 samples=51200 E=4.2769e-02 acc=0.8564
+FINAL ring sync nu=1 E=4.2769e-02 acc=0.8564
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN ring sync nu=2 n=4 |E|=4
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0873e-02 acc=0.6626
+  step=100 samples=25856 E=3.2372e-02 acc=0.7773
+  step=150 samples=38656 E=3.8392e-02 acc=0.8418
+  step=199 samples=51200 E=4.0889e-02 acc=0.8564
+FINAL ring sync nu=2 E=4.0889e-02 acc=0.8564
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN ring sync nu=4 n=4 |E|=4
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0684e-02 acc=0.6602
+  step=100 samples=25856 E=3.2199e-02 acc=0.7778
+  step=150 samples=38656 E=3.8076e-02 acc=0.8403
+  step=199 samples=51200 E=4.1023e-02 acc=0.8550
+FINAL ring sync nu=4 E=4.1023e-02 acc=0.8550
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN ring async nu=1 n=4 |E|=4
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.1068e-02 acc=0.6616
+  step=100 samples=25856 E=3.5529e-02 acc=0.7793
+  step=150 samples=38656 E=4.4018e-02 acc=0.8413
+  step=199 samples=51200 E=4.4307e-02 acc=0.8613
+FINAL ring async nu=1 E=4.4307e-02 acc=0.8613
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN ring async nu=2 n=4 |E|=4
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.1254e-02 acc=0.6660
+  step=100 samples=25856 E=3.2649e-02 acc=0.7778
+  step=150 samples=38656 E=3.7587e-02 acc=0.8423
+  step=199 samples=51200 E=4.0821e-02 acc=0.8550
+FINAL ring async nu=2 E=4.0821e-02 acc=0.8550
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN ring async nu=4 n=4 |E|=4
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0715e-02 acc=0.6597
+  step=100 samples=25856 E=3.2298e-02 acc=0.7783
+  step=150 samples=38656 E=3.8073e-02 acc=0.8398
+  step=199 samples=51200 E=4.1116e-02 acc=0.8555
+FINAL ring async nu=4 E=4.1116e-02 acc=0.8555
+[Gloo] Rank 1 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 0 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 2 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 4 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 7 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 3 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 6 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 8 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 5 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+RUN grid sync nu=1 n=9 |E|=12
+  step=0 samples=576 E=5.3928e-03 acc=0.0877
+  step=50 samples=29376 E=3.8066e-02 acc=0.6803
+  step=100 samples=58176 E=1.0806e-01 acc=0.7817
+  step=150 samples=86976 E=9.9268e-02 acc=0.8504
+  step=199 samples=115200 E=1.1240e-01 acc=0.8660
+FINAL grid sync nu=1 E=1.1240e-01 acc=0.8660
+[Gloo] Rank 2 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 0 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 5 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 1 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 4 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 6 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 3 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 7 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 8 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+RUN grid sync nu=2 n=9 |E|=12
+  step=0 samples=576 E=5.3928e-03 acc=0.0877
+  step=50 samples=29376 E=3.4892e-02 acc=0.6818
+  step=100 samples=58176 E=1.0547e-01 acc=0.7768
+  step=150 samples=86976 E=9.2897e-02 acc=0.8509
+  step=199 samples=115200 E=1.0980e-01 acc=0.8650
+FINAL grid sync nu=2 E=1.0980e-01 acc=0.8650
+[Gloo] Rank 7 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 8 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 0 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 1 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 3 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 2 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 5 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 4 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 6 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+RUN grid sync nu=4 n=9 |E|=12
+  step=0 samples=576 E=5.3928e-03 acc=0.0877
+  step=50 samples=29376 E=3.3616e-02 acc=0.6813
+  step=100 samples=58176 E=1.0323e-01 acc=0.7792
+  step=150 samples=86976 E=9.2140e-02 acc=0.8499
+  step=199 samples=115200 E=1.0672e-01 acc=0.8650
+FINAL grid sync nu=4 E=1.0672e-01 acc=0.8650
+[Gloo] Rank 5 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 8 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 0 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 1 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 2 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 6 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 7 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 4 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 3 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+RUN grid async nu=1 n=9 |E|=12
+  step=0 samples=576 E=5.3928e-03 acc=0.0877
+  step=50 samples=29376 E=3.6289e-02 acc=0.6871
+  step=100 samples=58176 E=1.0663e-01 acc=0.7870
+  step=150 samples=86976 E=9.6022e-02 acc=0.8523
+  step=199 samples=115200 E=1.1364e-01 acc=0.8689
+FINAL grid async nu=1 E=1.1364e-01 acc=0.8689        
+[Gloo] Rank 0 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 1 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 2 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 3 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+  step=150 samples=86976 E=9.1119e-02 acc=0.8504
+  step=199 samples=115200 E=1.1067e-01 acc=0.8670
+FINAL grid async nu=2 E=1.1067e-01 acc=0.8670
+[Gloo] Rank 3 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 5 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 2 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 1 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 0 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 4 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 7 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 6 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+[Gloo] Rank 8 is connected to 8 peer ranks. Expected number of connected peer ranks is : 8
+RUN grid async nu=4 n=9 |E|=12
+  step=0 samples=576 E=5.3928e-03 acc=0.0877
+  step=50 samples=29376 E=3.3796e-02 acc=0.6808
+  step=100 samples=58176 E=1.0203e-01 acc=0.7812
+  step=150 samples=86976 E=9.1884e-02 acc=0.8494
+  step=199 samples=115200 E=1.0734e-01 acc=0.8626
+FINAL grid async nu=4 E=1.0734e-01 acc=0.8626
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN star sync nu=1 n=4 |E|=3
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.2056e-02 acc=0.6680
+  step=100 samples=25856 E=3.4319e-02 acc=0.7812
+  step=150 samples=38656 E=4.1422e-02 acc=0.8428
+  step=199 samples=51200 E=4.0614e-02 acc=0.8604
+FINAL star sync nu=1 E=4.0614e-02 acc=0.8604
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN star sync nu=2 n=4 |E|=3
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.1002e-02 acc=0.6665
+  step=100 samples=25856 E=3.2252e-02 acc=0.7798
+  step=150 samples=38656 E=3.8037e-02 acc=0.8413
+  step=199 samples=51200 E=3.9278e-02 acc=0.8604
+FINAL star sync nu=2 E=3.9278e-02 acc=0.8604
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN star sync nu=4 n=4 |E|=3
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0628e-02 acc=0.6641
+  step=100 samples=25856 E=3.1645e-02 acc=0.7803
+  step=150 samples=38656 E=3.7153e-02 acc=0.8418
+  step=199 samples=51200 E=3.9363e-02 acc=0.8604
+FINAL star sync nu=4 E=3.9363e-02 acc=0.8604
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN star async nu=1 n=4 |E|=3
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.5189e-02 acc=0.6665
+  step=100 samples=25856 E=3.5067e-02 acc=0.7817
+  step=150 samples=38656 E=4.6204e-02 acc=0.8447
+  step=199 samples=51200 E=4.3041e-02 acc=0.8623
+FINAL star async nu=1 E=4.3041e-02 acc=0.8623
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN star async nu=2 n=4 |E|=3
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0623e-02 acc=0.6650
+  step=100 samples=25856 E=3.8820e-02 acc=0.7822
+  step=150 samples=38656 E=4.0641e-02 acc=0.8447
+  step=199 samples=51200 E=4.2495e-02 acc=0.8589
+FINAL star async nu=2 E=4.2495e-02 acc=0.8589
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN star async nu=4 n=4 |E|=3
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0522e-02 acc=0.6631
+  step=100 samples=25856 E=3.2529e-02 acc=0.7773
+  step=150 samples=38656 E=3.8102e-02 acc=0.8418
+  step=199 samples=51200 E=4.0669e-02 acc=0.8564
+FINAL star async nu=4 E=4.0669e-02 acc=0.8564
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN complete sync nu=1 n=4 |E|=6
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0692e-02 acc=0.6592
+  step=100 samples=25856 E=3.2220e-02 acc=0.7778
+  step=150 samples=38656 E=3.8079e-02 acc=0.8394
+  step=199 samples=51200 E=4.1121e-02 acc=0.8555
+FINAL complete sync nu=1 E=4.1121e-02 acc=0.8555
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN complete sync nu=2 n=4 |E|=6
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0692e-02 acc=0.6592
+  step=100 samples=25856 E=3.2220e-02 acc=0.7778
+  step=150 samples=38656 E=3.8079e-02 acc=0.8394
+  step=199 samples=51200 E=4.1128e-02 acc=0.8555
+FINAL complete sync nu=2 E=4.1128e-02 acc=0.8555
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN complete sync nu=4 n=4 |E|=6
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0692e-02 acc=0.6592
+  step=100 samples=25856 E=3.2220e-02 acc=0.7778
+  step=150 samples=38656 E=3.8070e-02 acc=0.8394
+  step=199 samples=51200 E=4.1120e-02 acc=0.8555
+FINAL complete sync nu=4 E=4.1120e-02 acc=0.8555
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN complete async nu=1 n=4 |E|=6
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0751e-02 acc=0.6626
+  step=100 samples=25856 E=3.5099e-02 acc=0.7808
+  step=150 samples=38656 E=3.8210e-02 acc=0.8428
+  step=199 samples=51200 E=4.0015e-02 acc=0.8594
+FINAL complete async nu=1 E=4.0015e-02 acc=0.8594
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN complete async nu=2 n=4 |E|=6
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0667e-02 acc=0.6592
+  step=100 samples=25856 E=3.2217e-02 acc=0.7783
+  step=150 samples=38656 E=3.8053e-02 acc=0.8389
+  step=199 samples=51200 E=4.1137e-02 acc=0.8545
+FINAL complete async nu=2 E=4.1137e-02 acc=0.8545
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+RUN complete async nu=4 n=4 |E|=6
+  step=0 samples=256 E=1.6607e-03 acc=0.0986
+  step=50 samples=13056 E=1.0681e-02 acc=0.6602
+  step=100 samples=25856 E=3.2211e-02 acc=0.7778
+  step=150 samples=38656 E=3.8066e-02 acc=0.8394
+  step=199 samples=51200 E=4.1125e-02 acc=0.8555
+FINAL complete async nu=4 E=4.1125e-02 acc=0.8555
+
+======================================================================
+KEY QUANTITIES SUMMARY
+======================================================================
+Topology   Mode   nu  n   |E|  Final E      Accuracy  
+----------------------------------------------------------------------
+ring       sync   1   4   4    4.2769e-02   0.8564
+ring       sync   2   4   4    4.0889e-02   0.8564
+ring       sync   4   4   4    4.1023e-02   0.8550
+ring       async  1   4   4    4.4307e-02   0.8613
+ring       async  2   4   4    4.0821e-02   0.8550
+ring       async  4   4   4    4.1116e-02   0.8555
+grid       sync   1   9   12   1.1240e-01   0.8660
+grid       sync   2   9   12   1.0980e-01   0.8650
+grid       sync   4   9   12   1.0672e-01   0.8650
+grid       async  1   9   12   1.1364e-01   0.8689
+grid       async  2   9   12   1.1067e-01   0.8670
+grid       async  4   9   12   1.0734e-01   0.8626
+star       sync   1   4   3    4.0614e-02   0.8604
+star       sync   2   4   3    3.9278e-02   0.8604
+star       sync   4   4   3    3.9363e-02   0.8604
+star       async  1   4   3    4.3041e-02   0.8623
+star       async  2   4   3    4.2495e-02   0.8589
+star       async  4   4   3    4.0669e-02   0.8564
+complete   sync   1   4   6    4.1121e-02   0.8555
+complete   sync   2   4   6    4.1128e-02   0.8555
+complete   sync   4   4   6    4.1120e-02   0.8555
+complete   async  1   4   6    4.0015e-02   0.8594
+complete   async  2   4   6    4.1137e-02   0.8545
+complete   async  4   4   6    4.1125e-02   0.8555
+======================================================================

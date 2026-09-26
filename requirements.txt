@@ -1,0 +1,5 @@
+# Install matching torch / torchvision builds for your platform.
+# Historical exact versions were not preserved; these are requirements, not a lockfile.
+torch>=2.2
+torchvision>=0.17
+matplotlib>=3.7
