@@ -84,4 +84,4 @@ Coursework authors: **Ying JIN and Felipe VICENTIN**. Portfolio documentation an
 No license was present in the source materials, and this repository does not add an open-source license or grant new reuse rights. See [NOTICE.md](NOTICE.md).
 
 
-[Back to the MVA project portfolio](https://github.com/PineappleBlowsnow/mva-portfolio)
+[Back to Ying Jin's project directory](https://github.com/PineappleBlowsnow#mva-projects)
