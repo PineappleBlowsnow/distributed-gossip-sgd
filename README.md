@@ -1,4 +1,6 @@
-# Gossip SGD across graph topologies
+# Training Decentralized Models with Gossip SGD
+
+**MVA course — Training and Deploying Large-Scale Models**
 
 **PyTorch Distributed / Gloo · decentralized optimization coursework · Ying JIN and Felipe VICENTIN**
 
@@ -80,3 +82,6 @@ The longer run suggests that additional communication often lowers disagreement 
 Coursework authors: **Ying JIN and Felipe VICENTIN**. Portfolio documentation and execution conveniences were added in September 2026; the original submission is preserved separately. No dataset, instructor prompt, course slides, credentials, or Python environment is included.
 
 No license was present in the source materials, and this repository does not add an open-source license or grant new reuse rights. See [NOTICE.md](NOTICE.md).
+
+
+[Back to the MVA project portfolio](https://github.com/PineappleBlowsnow/mva-portfolio)
